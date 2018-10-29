@@ -11,5 +11,7 @@ target 'Tests' do
   pod 'SDWebImage/WebP', :path => '../'
   pod 'SDWebImage/MapKit', :path => '../'
   pod 'SDWebImage/GIF', :path => '../'
+  pod 'SDWebImage/SVG', :path => '../'
+  pod 'SVGKit', :git => 'https://github.com/SVGKit/SVGKit.git', :branch => '2.x'
 
 end
